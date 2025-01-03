@@ -1,8 +1,25 @@
 {
-  "name": "react-chatbot",
-  "private": true,
-  "version": "0.0.0",
+  "name": "ivan-uji-widget",
+  "version": "1.0.9",
   "type": "module",
+  "main": "dist/ivan-uji-widget.umd.js",
+  "module": "dist/ivan-uji-widget.es.js",
+  "css": "dist/ivan-uji-widget.css",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "keywords": [
+    "ivan",
+    "uji",
+    "react"
+  ],
+  "author": "MIB19",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
